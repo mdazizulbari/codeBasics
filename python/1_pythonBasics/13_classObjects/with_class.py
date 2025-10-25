@@ -22,7 +22,19 @@ class CricketPlayer:
         return current_year - self.birth_year
 
     def __str__(self):
-        return f"{self.first_name} {self.last_name}, the cricket player form {self.team}"
+        return (
+            f"{self.first_name} {self.last_name}, the cricket player form {self.team}"
+        )
+
+    def __lt__(self, other):  # lt = less than operator
+        self_avg_score = self.get_average_score()
+        other_avg_score = other.get_average_score()
+        return self_avg_score < other_avg_score
+
+    def __eq__(self, other):
+        self_age = self.get_age()
+        other_age = other.get_age()
+        return self_age == other_age
 
 
 # Virat Kohli
@@ -53,3 +65,8 @@ print(david.scores)
 print(david.get_average_score())
 print(f"Age of David {david.get_age()}")  # ADDED: Missing age print for David
 print(david)  # ADDED: Missing __str__ call for David
+
+print(virat.get_average_score())
+print(david.get_average_score())
+print(david < virat)
+print(david == virat)
