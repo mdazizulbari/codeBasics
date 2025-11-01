@@ -1,0 +1,2 @@
+# Industry Projects-Based Bootcamp Created by Hiring Managers in Data / AI Field
+### Break into tech with Gen AI & Data Science Bootcamp designed to get you hired. Learn directly from Dhaval Patel and industry pros. With real-world projects, build a portfolio that stands out, and get job-ready with virtual internships and placement support. Emerge ready for roles like Data Scientist, Machine Learning Engineer, NLP Engineer, or AI Engineer. Benefit from dedicated guidance and lifetime content validity.
